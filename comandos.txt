@@ -1,0 +1,12 @@
+1 ventana de msdos lanzo el servidor
+set CLASSPATH=c:
+javac C:\RmiGUISimple\Server\*.java
+rmic RmiGUISimple.Server.RmiServidor
+java RmiGUISimple.Server.RmiServidor
+
+2 ventana de msdos lanzo el cliente
+set CLASSPATH=c:
+javac C:\RmiGUISimple\Client\RmiCliente.java
+java RmiGUISimple.Client.RmiCliente
+
+
